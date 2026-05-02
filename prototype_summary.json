@@ -1,0 +1,164 @@
+{
+  "team_size": 25,
+  "departments": {
+    "Разработка": 10,
+    "Продажи": 8,
+    "Поддержка": 7
+  },
+  "weeks": 4,
+  "n_logs_before": 1832,
+  "findings": {
+    "изолированный": [
+      "E03",
+      "E15"
+    ],
+    "перегруженный посредник": [
+      "E18",
+      "E22"
+    ]
+  },
+  "gaps": [
+    [
+      "Продажи",
+      "Разработка"
+    ]
+  ],
+  "mean_delta_targeted": 0.15824221400123345,
+  "mean_delta_universal": 0.051838250211505184,
+  "ttest_targeted_kpi": [
+    6.9048552109854855,
+    3.8526435690641204e-07
+  ],
+  "ttest_universal_kpi": [
+    4.772692847856641,
+    7.401916106983974e-05
+  ],
+  "mannwhitney": [
+    511.0,
+    6.107655392084601e-05
+  ],
+  "ttest_targeted_degree": [
+    3.9007228360816386,
+    0.0006768999953725831
+  ],
+  "metrics_before_head": [
+    {
+      "eid": "E01",
+      "dept": "Разработка",
+      "role": "перегруженный посредник",
+      "in_degree": 321,
+      "out_degree": 369,
+      "total_degree": 690,
+      "betweenness": 0.06794772256728779,
+      "clustering": 0.18344419221710487
+    },
+    {
+      "eid": "E02",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 193,
+      "out_degree": 144,
+      "total_degree": 337,
+      "betweenness": 0.027148033126293998,
+      "clustering": 0.21235730921530063
+    },
+    {
+      "eid": "E03",
+      "dept": "Разработка",
+      "role": "изолированный",
+      "in_degree": 47,
+      "out_degree": 18,
+      "total_degree": 65,
+      "betweenness": 0.06265096618357488,
+      "clustering": 0.13319031926362732
+    },
+    {
+      "eid": "E04",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 175,
+      "out_degree": 238,
+      "total_degree": 413,
+      "betweenness": 0.10944185645272601,
+      "clustering": 0.1642200467400618
+    },
+    {
+      "eid": "E05",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 210,
+      "out_degree": 164,
+      "total_degree": 374,
+      "betweenness": 0.057280883367839895,
+      "clustering": 0.1506907609565892
+    },
+    {
+      "eid": "E06",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 165,
+      "out_degree": 182,
+      "total_degree": 347,
+      "betweenness": 0.09767080745341616,
+      "clustering": 0.17064963175972478
+    },
+    {
+      "eid": "E07",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 170,
+      "out_degree": 230,
+      "total_degree": 400,
+      "betweenness": 0.034312456866804696,
+      "clustering": 0.2504236437631763
+    },
+    {
+      "eid": "E08",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 186,
+      "out_degree": 210,
+      "total_degree": 396,
+      "betweenness": 0.018771566597653555,
+      "clustering": 0.1908769916178042
+    },
+    {
+      "eid": "E09",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 206,
+      "out_degree": 161,
+      "total_degree": 367,
+      "betweenness": 0.0047403381642512074,
+      "clustering": 0.1861472894250031
+    },
+    {
+      "eid": "E10",
+      "dept": "Разработка",
+      "role": "обычный",
+      "in_degree": 195,
+      "out_degree": 161,
+      "total_degree": 356,
+      "betweenness": 0.03433402346445825,
+      "clustering": 0.17578930359577044
+    }
+  ],
+  "isolated_before_degree": {
+    "E03": 65,
+    "E15": 32,
+    "E18": 262,
+    "E22": 232
+  },
+  "isolated_after_degree_targeted": {
+    "E03": 444,
+    "E15": 361,
+    "E18": 362,
+    "E22": 287
+  },
+  "isolated_after_degree_universal": {
+    "E03": 73,
+    "E15": 56,
+    "E18": 291,
+    "E22": 308
+  }
+}
